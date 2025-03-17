@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+/* Default styles for all devices */
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Responsive styles for different devices */
+@media (max-width: 480px) {
+  /* Mobile View (480p) */
+  .services-container {
+    grid-template-columns: 1fr; /* Single column for mobile */
+  }
+}
+
+@media (min-width: 481px) and (max-width: 720px) {
+  /* 720p */
+  .services-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+  }
+}
+
+@media (min-width: 721px) and (max-width: 1080px) {
+  /* 1080p */
+  .services-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+  }
+}
+
+@media (min-width: 1081px) and (max-width: 1440px) {
+  /* MacBook (1440x823) */
+  .services-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+  }
+}
+
+@media (min-width: 1441px) {
+  /* iPad (2732x2048) and larger screens */
+  .services-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+  }
+}

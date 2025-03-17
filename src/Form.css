@@ -1,0 +1,41 @@
+.form-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .form-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .form-section input {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-section button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 10px;
+  }
